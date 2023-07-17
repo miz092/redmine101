@@ -1,12 +1,12 @@
 [Back to user page](USER.md)
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 ### My page
 
 My page lets you display various blocks of information about your projects. Users can personalize their own "My page" by adding, removing and
 reordering blocks.
-![Access admin page](pictures/mypage1.png)
+![Access admin page](../pictures/modules/mypage1.png)
 
 ### Blocks
 

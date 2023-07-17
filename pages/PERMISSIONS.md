@@ -2,7 +2,7 @@
 
 [Back to admin page](ADMIN.md)
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 ## Roles & permissions
 
@@ -13,7 +13,7 @@ member is the combination of all roles' permissions. A user can have different r
 
 You can create new roles or edit existing ones. You can delete a role only if nobody has this role on a project.
 
-![new document](pictures/roles1.png)
+![new document](../pictures/workflow/roles1.png)
 
 #### Role properties
 

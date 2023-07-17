@@ -1,6 +1,6 @@
 [Back to user page](USER.md)
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 ## ISSUES
 
@@ -8,11 +8,11 @@
 
 1. On the project's page, locate the "New Issue" button or link. It is usually located near the top of the page or in the sidebar.
 
-![Access admin page](pictures/issues1.png)
+![Access admin page](../pictures/issues/issues1.png)
 
 2. Click on the "New Issue" button/link to open the issue creation form.
 
-![Access admin page](pictures/issue2.png)
+![Access admin page](../pictures/issues/issue2.png)
 
 3. Fill in the necessary details for the issue. This typically includes the tracker, subject/title, description, status,
    priority and any other relevant fields.
@@ -68,7 +68,7 @@ It is possible to link issues based on various relations. Current relations are:
 * **copied from** - Links issues to identify whether it was copied, and from which issue it was copied from.
 * **copied to** - Reciprocal of _copied from_.
 
-![Redmine Related Issues](pictures/tracker1.png "Redmine Related Issues")
+![Redmine Related Issues](../pictures/timetracking/tracker1.png "Redmine Related Issues")
 
 Administrators can define the permissions](/projects/redmine/wiki/RedmineRoles#Permissions) of users to add and edit such relations.
 
@@ -79,7 +79,7 @@ Display a list of all the users who are watching this issue. If the issue is upd
 If you are logged in as a project administrator, it is possible for you to add users to the watch list on this page. By clicking on the Add link,
 a drop-down menu with an **Add** button appear, which allows you to select which user to add to the watch list.
 
-![Redmine Watchers](pictures/tracking2.png "Redmine Watchers")
+![Redmine Watchers](../pictures/timetracking/tracking2.png "Redmine Watchers")
 
 Administrators can define the [permissions](PERMISSIONS.md) of users to add/delete watchers as well as to see the list of watchers.
 
@@ -88,12 +88,12 @@ Administrators can define the [permissions](PERMISSIONS.md) of users to add/dele
 If the administrator has defined Referencing Issues Keywords, a developer that uses such keyword(s) will see its commit message displayed on the issue
 page, under the Associated revisions block (generally to the right of the first reply).
 
-![Redmine Associated Revision](pictures/tracking3.png "Redmine Associated Revision")
+![Redmine Associated Revision](../pictures/timetracking/tracking3.png "Redmine Associated Revision")
 
 Revisions can also be associated to issues manually, from a changeset (revision) view in the Repository browser. The manual associations are
 reversible. They can be revoked by using the broken chain icon to the right of an added association, again in the changeset view.
 
-![](pictures/tracking 4.png)
+![](../pictures/tracking%204.png)
 
 #### Adding a new issue
 
@@ -108,7 +108,7 @@ three different trackers: _bug_, _feature_, and _support_.
 
 To edit the issue, Click _Update_ link (having a pencil icon) at the top or the bottom of the issue page:
 
-![Screenshot for Update an existing issue](pictures/tracking5.png "Screenshot for Update an existing issue")
+![Screenshot for Update an existing issue](../pictures/timetracking/tracking5.png "Screenshot for Update an existing issue")
 
 Depending you your role permissions (see [roles and permissions](PERMISSIONS.md)), you will see a complete or a limited set of editable issue
 properties.
@@ -122,7 +122,7 @@ In order to edit an existing issue, your role has to have the Issue Tracking > E
 
 The description of the issue has pencil icon right next to it that you can click to change the description.
 
-![New location to change the description of an issue](pictures/tracking6.png "New location to change the description of an issue")
+![New location to change the description of an issue](../pictures/timetracking/tracking6.png "New location to change the description of an issue")
 
 #### Subtasks
 
@@ -140,10 +140,10 @@ should also be copied.
 
 One can show the parents task id as sortable column in the issues list and there is also a filter option for it.  
 When the list is sorted by the parent task id the subtasks hierarchy is displayed in an indented tree structure.  
-![](/pictures/tracking7.png)
+![](/pictures/timetracking/tracking7.png)
 
 As long as the tasks share the same target version the tree structure is also visible in the gantt view.  
-![](pictures/tracking8.png)
+![](../pictures/timetracking/tracking8.png)
 
 #### Relations between the parent task and its subtasks
 
@@ -160,4 +160,4 @@ The following relations exist between the parent task and its subtasks.
 
 [Back to user page](USER.md)
 
-[Back to main page](README.md)
+[Back to main page](../README.md)

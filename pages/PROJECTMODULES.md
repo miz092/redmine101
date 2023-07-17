@@ -1,6 +1,6 @@
 ### Project modules
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 [Back to admin page](ADMIN.md)
 
@@ -10,7 +10,7 @@ The Gantt module in Redmine provides a visual representation of project timeline
 define dependencies, and track progress. The Gantt chart visually displays task durations, start and end dates, and helps in resource allocation and
 project planning.
 
-![Gantt chart](pictures/gantt.png)
+![Gantt chart](../pictures/modules/gantt.png)
 
 #### Calendar
 
@@ -19,7 +19,7 @@ indicates their start date and (if available) their due date. The calendar also 
 Access to the module can be granted or denied at a role level.
 To do this go to the administration page, follow the roles and permissions link, choose a role and check or uncheck the Calendar permissions checkbox.
 
-![Calendar](pictures/calendar.png)
+![Calendar](../pictures/modules/calendar.png)
 
 #### News
 
@@ -33,7 +33,7 @@ If you have the permissions to create news items, then you can add/edit/delete a
 If you have the permission to create new news items, you have a green plus sign (+ Add news) in the upper right of you screen. If you click on that,
 you can add a new news item. On this page, you have to insert the Title, Summary and Description of the news item.
 
-![News](pictures/news.png)
+![News](../pictures/project/news.png)
 
 #### Documents
 
@@ -47,11 +47,11 @@ These categories can be modified and other categories can be added by a Redmine 
 ##### Adding documents
 
 - From the Documents tab press the New document link.
-  ![new document](pictures/NewDocument.png)
+  ![new document](../pictures/modules/NewDocument.png)
 
 - Once documents have been uploaded, the title is used as the link to download the attached documents, and add more if necessary.
 
-  ![new document](pictures/Documents.png)
+  ![new document](../pictures/modules/Documents.png)
 
 #### Files
 
@@ -60,7 +60,7 @@ Each project can have a Files module enabled/disabled via the settings menu.
 A sortable table shows the details of all the uploaded files. If a version is selected while uploading a file, that file will be shown below the
 version. Of note are the Checksum hash and D/L(Download Count).
 
-![new document](pictures/files.png)
+![new document](../pictures/modules/files.png)
 
 New files are added via the New File button in the upper right hand corner.
 
@@ -77,7 +77,7 @@ at once is possible using the "Add another file" link.
 
 The optional description is used for an alt text.
 
-![new document](pictures/files2.png)
+![new document](../pictures/modules/files2.png)
 
 #### Forums
 
@@ -89,7 +89,7 @@ The forum list displays the project forums overview:
 - total number of messages
 - a link to the latest message
 
-![new document](pictures/forums.png)
+![new document](../pictures/modules/forums.png)
 
 ##### Adding a topic
 
@@ -112,7 +112,7 @@ Clicking a revision number will display the details of the commit.
 
 To browse the repository at a given revision, enter the revision number in the upper-right field and hit Enter.
 
-![new document](pictures/repository.png)
+![new document](../pictures/workflow/repository.png)
 
 #### News
 
@@ -126,7 +126,7 @@ If you have the permissions to create news items, then you can add/edit/delete a
 If you have the permission to create new news items, you have a green plus sign (+ Add news) in the upper right of you screen. If you click on that,
 you can add a new news item. On this page, you have to insert the Title, Summary and Description of the news item.
 
-![news](pictures/news.png)
+![news](../pictures/project/news.png)
 
 #### Issue tracking system
 
@@ -142,7 +142,7 @@ For each tracker, you can define: (see image below)
 - A different workflow
 - Standard and custom fields available for the tracker
 
-![new document](pictures/tracker1.png)
+![new document](../pictures/timetracking/tracker1.png)
 
 When creating a new tracker, you'll need to define its Workflow (see below) in order to properly use it. (To save time doing that - you can copy an
 existing tracker's workflow when creating a new one. To do that, select a tracker in the 'Copy workflow from' drop-down list on the 'New tracker'
@@ -180,10 +180,10 @@ On this tab one can set special permissions to a field in a specific state. One 
 empty for default behavior. If the field is set as read-only it is hidden in the edit section and can not be changed by the selected role. If the
 field is set to required it can not be left empty when the issue gets edited by the selected role.
 
-![new document](pictures/fieldspermissions.png)
+![new document](../pictures/workflow/fieldspermissions.png)
 
 
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 [Back to admin page](ADMIN.md)

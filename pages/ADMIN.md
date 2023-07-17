@@ -1,6 +1,6 @@
 ### Life of an admin
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 ### Main admin tasks
 
@@ -39,67 +39,67 @@
 
 1. Click on "Administrator" in order to access admin page
 
-   ![Access admin page](pictures/admin1.png)
+   ![Access admin page](../pictures/adminPage/admin1.png)
 
 2. Here you can choose between different management options
 
-   ![Admin page](pictures/admin2.png)
+   ![Admin page](../pictures/adminPage/admin2.png)
 
 3. On the users page you can see all the users belonging to this account. Click on 'new user' in order to register a new user
 
-   ![Admin page](pictures/admin3.png)
+   ![Admin page](../pictures/adminPage/admin3.png)
 
 
 4. The new user page allows us to specify every detail about our user
 
-   ![Admin page](pictures/admin4.png)
+   ![Admin page](../pictures/adminPage/admin4.png)
     - Login: this is what the user will have to use to log in. Can be referred to as username.
     - Administrator checkbox: we can register other administrators
     - Authentication: we can generate or write our own password. It can be specified when it has to be changed.
     - E-mail: we can tell Redmine what we want to receive e-mails about:
 
-      ![Admin page](pictures/admin5.png)
+      ![Admin page](../pictures/adminPage/admin5.png)
 
     - Preferences: there are some personal preference options such as e-mail hiding, font type and size,
       or comment sorting
 5. Once our user is created we can further manage it. By clicking 'lock' we can deactivate the user, or even delete it.
 
-![Admin page](pictures/admin6.png)
+![Admin page](../pictures/adminPage/admin6.png)
 
 ### Project creation
 
 1. Click on "Projects" to access the project list
 
-   ![Admin page](pictures/project1.png)
+   ![Admin page](../pictures/project/project1.png)
 
 2. On the project page we can see our existing projects, we can filter them in several ways, and we can also create new ones by clicking on 'new
    project'
 
-   ![Admin page](pictures/project2.png)
+   ![Admin page](../pictures/project/project2.png)
 
 3. Creating a project is straightforward. Add a name, description, identifier (which will be the path), accessibility(public or private) and we
    can also tell if the project is connected to another project. If we check the 'inherit members' checkbox, the created project will have the
    same people working on it as the other project.
 
-   ![Admin page](pictures/project3.png)
+   ![Admin page](../pictures/project/project3.png)
 
 4. We can also choose the modules we want to be present in the project. Detailed description about the modules can be found
    here: [Module details](PROJECTMODULES.md)
 5. After we created our project we can further manage its own page. More on this here:
 
-   ![Admin page](pictures/pmanagement1.png)
+   ![Admin page](../pictures/project/pmanagement1.png)
 
     - we can add and remove members and give them roles withing the project
         - roles are allowing us to have someone work on a project as a manager and work on another as just a reporter
     - at issue tracking we can specify what kind of issues we want to track and see advancements about
 
-      ![Admin page](pictures/pmanagement3.png)
+      ![Admin page](../pictures/project/pmanagement3.png)
 
-      ![Admin page](pictures/pmanagement5.png)
+      ![Admin page](../pictures/project/pmanagement5.png)
 
     - there is an option for versioning the project
 
-      ![Admin page](pictures/pmanagement4.png)
+      ![Admin page](../pictures/project/pmanagement4.png)
 
     - we can specify new issue categories
     - repositories can be added to the project
@@ -112,7 +112,7 @@ many task are open and closed for each tracker specified for the project. In the
 in particular who is the administrator of the project. In the Latest news area you can see which are the latest news for the particular project.
 More project info [here](PROJECTINFO.md).
 
-![Project overview](pictures/redmine-project-overview.png)
+![Project overview](../pictures/project/redmine-project-overview.png)
 
 On the upper right side you see Sign in and Register. The Sign-in link allows those who have an account for this project to log in. The Register link
 allow unregistered users to register themselves, allowing them to be part of any projects contained within this installation of Redmine.
@@ -149,23 +149,23 @@ To add members to a group, do the following:
         - Set the Role
         - Click Add
 
-![Admin page](pictures/group1.png)
+![Admin page](../pictures/group/group1.png)
 
 - Example Group Users tab
 
-![Admin page](pictures/group2.png)
+![Admin page](../pictures/group/group2.png)
 
 - Adding Members to a Group
 
-![Admin page](pictures/group3.png)
+![Admin page](../pictures/group/group3.png)
 
 - Group Project tab
 
-![Admin page](pictures/group4.png)
+![Admin page](../pictures/group/group4.png)
 
 - Associating a group to a project (from the Group context)
 
-![Admin page](pictures/group5.png)
+![Admin page](../pictures/group/group5.png)
 
 ### Enumeration
 
@@ -182,7 +182,7 @@ If the default-value checkbox is ticked, the selected enumeration will be the de
 to the default-value for the specific enumeration-category (activities, document categories or issue priorities) no enumeration will be pre-selected
 for the specific field(s).
 
-![Enums](pictures/enums.png)
+![Enums](../pictures/project/enums.png)
 
 ### Custom fields
 
@@ -289,7 +289,7 @@ You can see the following three kinds of information on the "Administration" > "
 * The table shows if some important configurations are done correctly
 * Environment information of the Redmine server
 
-![new document](pictures/adminInfo.png)
+![new document](../pictures/adminPage/adminInfo.png)
 
 #### Redmine version
 
@@ -353,4 +353,4 @@ It displays a variety of information about the environment that the application 
 It is recommended to include this information when reporting issues to plugin developers, the Redmine team, and so on. The information helps them to
 investigate issues.
 
-[Back to main page](README.md)
+[Back to main page](../README.md)

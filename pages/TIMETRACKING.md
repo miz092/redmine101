@@ -1,6 +1,6 @@
 [Back to user page](USER.md)
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 
 ### Time tracking
@@ -16,11 +16,11 @@ or spent time report pages for more information.
 
 You can log time on an issue by clicking Log time from the issue details view.
 
-![Projectinfo](pictures/timetrack1.png)
+![Projectinfo](../pictures/timetracking/timetrack1.png)
 
 You can also log time when updating an issue.
 
-![Projectinfo](pictures/timetrack2.png)
+![Projectinfo](../pictures/timetracking/timetrack2.png)
 
 ### Logging time at project level
 

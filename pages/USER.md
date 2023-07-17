@@ -1,6 +1,6 @@
 
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
 
 
 ### User
@@ -24,7 +24,7 @@ of what a non-admin user can do in Redmine:
    issues, view their details, status, and associated information. They can also filter and sort issues based on different criteria.
 
 
-4. Update [issue](ISSUES.md) Status and Progress: Non-admin users can update the status and progress of issues they are assigned to. They can change
+4. Update [issue](ISSUES.md) status and progress: Non-admin users can update the status and progress of issues they are assigned to. They can change
    the status
    from "
    Open" to "In Progress" and eventually mark it as "Resolved" or "Closed" upon completion. They can also update the percentage of completion for
@@ -57,4 +57,4 @@ updates. It serves as a central hub for managing your work within the Redmine sy
 are two tabs to look for: [overview and activity](PROJECTINFO.md).
 
 
-[Back to main page](README.md)
+[Back to main page](../README.md)
